@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="card">
-        
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <form action="">
+                <div class="card">
+                    <div class="top">
+                        <h2>Upgrade to Pro</h2>
+                        <p>Select which team you wish to upgrade</p>
     
-</body>
+                        
+                        <input type="text" id="apxntwrk" name="apxntwrk" placeholder="apexnetwork">
+                    </div>
+            
+                    <div class="middle">
+                        <h5>Add a payment method for <span class="mid-apex">apexnetwork</span> team.</h5>
+    
+                        <label for="card-number">CARD NUMBER</label>
+                        <input type="text" id="card-no" name="card-no" placeholder="1234 1234 1234 1234">
+    
+    
+                        <div class="middle-two">
+                            <div class="left-case">
+                                <label for="expires">EXPIRES</label>
+                                <input type="text" id="expires" name="expires" placeholder="MM / YY">
+                            </div>
+    
+                           <div class="right-case">
+                            <label for="cvc">CVC</label>
+                            <input type="text" name="cvc" id="cvc" placeholder="CVC">
+                           </div>
+                        </div>
+                    </div>
+            
+                    <div class="bottom">
+                        <!-- <input type="submit" value="CANCEL"> -->
+                        
+                        <button id="btn-cancel">CANCEL</button>
+                        
+                        <!-- <input type="submit" value="UPGRADE"> -->
+                        <button id="btn-upgrade"><b>UPGRADE</b></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </body>
 </html>

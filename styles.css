@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.top{
+    padding: 20px;
+}
+
+.top >h2 {
+    text-align: center;
+}
+
+.top >p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#apxntwrk{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#card-no {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.middle{
+    padding: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: rgb(31, 30, 30);
+}
+
+.middle-two{
+    display: flex;
+}
+
+#expires, #cvc{
+    width: 94%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.middle h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgb(31, 30, 30) ;
+}
+
+
+.mid-apex{
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.bottom{
+    display: flex;
+    padding: 20px;
+}
+
+#btn-cancel{
+    border-right:1px solid white ;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+label{
+    /* background-color:rgb(31, 30, 30); */
+}
+
+#btn-upgrade{
+    width: 50%;
+    border: none;
+    outline: none;
+}
