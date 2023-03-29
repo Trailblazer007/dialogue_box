@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="/styles.css">
+        <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     </head>
 
     <body>
@@ -16,38 +17,58 @@
                         <h2>Upgrade to Pro</h2>
                         <p>Select which team you wish to upgrade</p>
     
-                        
-                        <input type="text" id="apxntwrk" name="apxntwrk" placeholder="apexnetwork">
+                        <div class="apexnetwork-holder">
+                            <input type="text" id="apxntwrk" name="apxntwrk" placeholder="apexnetwork" >
+                            
+                            <div class="search-icon-holder">
+                                <span class="iconify" data-icon="material-symbols:search"></span>
+                            </div>
+
+                            <div class="cancel-icon-holder">
+                                <span class="iconify" data-icon="mdi:cancel-bold"></span>
+                            </div>
+                        </div>                       
+
                     </div>
             
                     <div class="middle">
-                        <h5>Add a payment method for <span class="mid-apex">apexnetwork</span> team.</h5>
+                        <p>Add a payment method for <span class="mid-apex">apexnetwork</span> team.</p>
     
                         <label for="card-number">CARD NUMBER</label>
-                        <input type="text" id="card-no" name="card-no" placeholder="1234 1234 1234 1234">
+
+                        <div class="card-number-holder">
+                            <div class="card-icon-holder">
+                                <span class="iconify" data-icon="ic:sharp-credit-card"></span>
+                            </div>
+                            <input type="text" id="card-no" name="card-no" placeholder="1234 1234 1234 1234">
+                        </div>
     
     
                         <div class="middle-two">
                             <div class="left-case">
-                                <label for="expires">EXPIRES</label>
+                                <div class="expires">
+                                    <label for="expires">EXPIRES</label>
+                                </div>
                                 <input type="text" id="expires" name="expires" placeholder="MM / YY">
                             </div>
     
                            <div class="right-case">
-                            <label for="cvc">CVC</label>
+                            <div class="cvc">
+                                <label for="cvc">CVC</label>
+                            </div>
                             <input type="text" name="cvc" id="cvc" placeholder="CVC">
                            </div>
                         </div>
                     </div>
             
                     <div class="bottom">
-                        <!-- <input type="submit" value="CANCEL"> -->
                         
                         <button id="btn-cancel">CANCEL</button>
                         
-                        <!-- <input type="submit" value="UPGRADE"> -->
                         <button id="btn-upgrade"><b>UPGRADE</b></button>
                     </div>
+
+        
                 </div>
             </form>
         </div>
