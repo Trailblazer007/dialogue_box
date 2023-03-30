@@ -96,12 +96,6 @@ body{
     margin-top: 20px;
 }
 
-.middle h5{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color:rgb(31, 30, 30) ;
-}
-
 .mid-apex{
     font-weight: 700;
 }
@@ -120,7 +114,6 @@ input{
 .card{
     border: 1px solid gray;
     border-radius: 8px;
-    background-color: black;
     overflow: hidden;
 }
 
@@ -130,7 +123,6 @@ input{
 }
 
 #btn-cancel{
-    border-right:1px solid white ;
     background-color: black;
     outline: none;
     border-top: none;
@@ -138,7 +130,6 @@ input{
     border-right: none;
     border-left: none;
     padding: 20px 0 20px;
-    justify-content: center;
 }
 
 #btn-upgrade{
@@ -149,6 +140,5 @@ input{
     border-bottom: none;
     border-right: none;
     padding: 20px 0 20px;
-    justify-content: center;
 }
 
