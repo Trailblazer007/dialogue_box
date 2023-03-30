@@ -150,6 +150,7 @@ input{
 }
 
 #btn-upgrade{
+    font-weight:700;
     background-color: black;
     outline: none;
     border-top: none;
